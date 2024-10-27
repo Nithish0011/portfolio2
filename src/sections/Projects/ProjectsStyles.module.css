@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+img{
+    max-width: 250px;
+    align-self: center;
+    background-color: var(--project-card-bg);
+    border-radius: 20px;
+}
+
+a {
+    width : fit-content;
+    text-decoration: none;
+    color: #222;
+    transition: transform 200ms ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.scroller {
+    display: 'flex';
+    flex-direction: column;
+    overflow-x: auto;
+    white-space: nowrap; /* Enable vertical scrolling */
+    padding:100x 0;/* Set a max height for the scroller */
+    width: 80%;
+}
+
+.projectCard {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@media (width >= 800px) {
+    .projectsContainer{
+        flex-direction: row;
+        justify-content: center;
+    }
+}

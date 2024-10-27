@@ -1,0 +1,52 @@
+.educationSection {
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.sectionTitle {
+    color: var(--text-color);
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.educationList {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.educationItem {
+    margin-bottom: 15px;
+}
+
+.degree {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.institution {
+    color: var(--footer-text-color);
+}
+
+.year {
+    color: var(--form-text-color);
+}
+.result {
+    display: inline-block;
+    background-color:  #0987f2;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: bg-color 0.3s ease, transform 0.3s ease;
+}
+
+.result:hover {
+    background-color: #ff6347;
+    transform: scale(1.05);
+}
