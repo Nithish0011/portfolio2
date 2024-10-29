@@ -42,6 +42,13 @@ a:hover {
     display: inline-block;
     margin-right: 20px;
 }
+.projectCard src{
+    max-width: 150px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+
 
 @media (width >= 800px) {
     .projectsContainer{

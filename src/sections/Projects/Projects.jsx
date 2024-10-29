@@ -1,21 +1,19 @@
 import React from 'react'
 import styles from './ProjectsStyles.module.css';
-import hipsster from '../../assets/hipsster.png'
 import ProjectCard from '../../common/ProjectCard';
-import fitlift from '../../assets/fitlift.png'
-import datapoison from '../../assets/DataPoisoning.png'
 import website from '../../assets/webBlock.png'
 import DocLog from '../../assets/DocLogo.png'
 import Todo from '../../assets/TodoPro.png'
 import port from '../../assets/profolio.png'
-
+import data from '../../assets/data-protection.png'
+import gen from '../../assets/computer-password.png'
 
 
 const Projects = () => {
   return (
-    <section id="projects" className={StyleSheet.container}>
+    <section id="projects" className={styles.container}>
         <h1 className='sectionTitle'>Projects</h1>
-        <div className={StyleSheet.projectsContainer}>
+        <div className={styles.projectsContainer}>
           <div className={styles.scroller}>
 
         
@@ -27,18 +25,18 @@ const Projects = () => {
         p = ""
         />
 
-<ProjectCard 
-        src={datapoison}
-        link='https://careers.cognizant.com/india-en/'
-        h3 = "Data poisoning"
-        p = ""
+       <ProjectCard 
+        src={data}
+        link='https://github.com/Nithish0011/DataPoison'
+        h3 = "Poison Detection"
+        p = "Detecting Data Poison in AI Models"
         />     
 
         
 
        <ProjectCard 
         src={DocLog}
-        link='https://www.imdb.com/name/nm1333687/'
+        link='https://github.com/Nithish0011/Dwakana'
         h3 = "Dawakana"
         p = "Doctor Appointment App"
         />    
@@ -51,10 +49,10 @@ const Projects = () => {
         /> 
 
         <ProjectCard 
-        src={Todo}
+        src={gen}
         link='https://www.appbrewery.co/p/web-development-course-resources/'
-        h3 = "Todo"
-        p = "Daily Tasks"
+        h3 = "Password Generator"
+        p = ""
         /> 
           </div>
             

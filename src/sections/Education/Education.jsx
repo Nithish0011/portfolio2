@@ -14,7 +14,7 @@ const educationData = [
     institution: "A v v Degree and Pg college",
     degree: "Bachelor of Science(computer)",
     year: "2018 - 2021",
-    result:"https://drive.google.com/file/d/1N0XLqP6VGDorAu72vXOv0XqGNXhcnhP5/view?usp=sharing",
+    result:"https://drive.google.com/file/d/1slF7sT0abQpnlINWJQvZJoZCGLhAk4p3/view?usp=sharing",
   },
   {
     institution: "JVS sri chaitanya junior college",
