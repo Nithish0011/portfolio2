@@ -12,7 +12,7 @@ import githubLight from '../../assets/github-light.svg'
 import githubDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
-import NithishFrontend from '../../assets/NitishFrontend.pdf'
+import NithishMca from '../../assets/NithishMca .pdf'
 import {useTheme} from '../../common/ThemeContext';
 
 const Hero = () => {
@@ -47,30 +47,27 @@ const Hero = () => {
         />
       </div>
       <div className={styles.info}>
-        <h1>Nithish Baswa <br />
+        <h1>Nithish Baswa
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Web Developer</h2>
         <span>
           <a href="https://x.com/NithishBaswa" target="_blank" rel="noopener noreferrer">
           <img src={twitterIcon} alt="Twitter Icon" />
           </a>
-            
-            
           <a href="https://github.com/Nithish0011" target="_blank" rel="noopener noreferrer">
              <img src={githubIcon} alt="Github Icon" />  
           </a>
               
-
           <a href="https://www.linkedin.com/in/nithish-baswa-657459214/?originalSubdomain=in" target="_blank" rel="noopener noreferrer"><img src={linkedinIcon} alt="linkedIcon" /></a>
               
           
 
         </span>
         <p className={styles.description}>
-          with a passion for developing modern React web apps for commercial businesses
+        committed to creating impactful React web applications for the business landscape
         </p>
-        <a href={NithishFrontend} download>
-          <button className="hover">
+        <a href={NithishMca} target="_blank" rel="noopener noreferrer">
+          <button className="button" role='button'>
             Resume</button>
         </a>
       </div>  

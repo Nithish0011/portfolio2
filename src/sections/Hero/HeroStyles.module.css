@@ -2,10 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     text-align : center;
-    gap: 20px;
-    text-align: center;
     height: 100dvh;
     min-height: 500px;
 
@@ -16,7 +15,7 @@
     span {
         display: flex;
         gap: 25px;
-        justify-content: center;
+        
 
         a{
             margin: 0;
@@ -59,10 +58,36 @@
 }
 
 .colorModeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+
 }
 
+button{
+    background-color: #25CCF7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 30px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+
 .colorMode {
+    display: flex;
+    justify-content: center;
     position: absolute;
     right: 0;
     width: 25px;
@@ -78,6 +103,8 @@
 .info{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 

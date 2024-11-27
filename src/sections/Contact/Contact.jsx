@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
     <section>
-      <h1>Contact</h1>
+      <h1>Contact</h1><br />
       <form ref={form}onSubmit={sendEmail}>
         <div className={styles.formGroup}>
           <label htmlFor="name" hidden>

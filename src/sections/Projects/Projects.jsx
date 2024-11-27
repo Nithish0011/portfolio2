@@ -3,10 +3,10 @@ import styles from './ProjectsStyles.module.css';
 import ProjectCard from '../../common/ProjectCard';
 import website from '../../assets/webBlock.png'
 import DocLog from '../../assets/DocLogo.png'
-import Todo from '../../assets/TodoPro.png'
 import port from '../../assets/profolio.png'
+import emp from '../../assets/employee.png'
 import data from '../../assets/data-protection.png'
-import gen from '../../assets/computer-password.png'
+import gen from '../../assets/TodoPro.png'
 
 
 const Projects = () => {
@@ -19,10 +19,10 @@ const Projects = () => {
         
           
         <ProjectCard 
-        src={port}
-        link='https://github.com/Nithish0011/data-poisoning'
-        h3 = "Portfolio "
-        p = ""
+        src={emp}
+        link='https://github.com/Nithish0011/EmployeeManagement'
+        h3 = "Employee Management "
+        p = "Full stack website"
         />
 
        <ProjectCard 
@@ -32,8 +32,6 @@ const Projects = () => {
         p = "Detecting Data Poison in AI Models"
         />     
 
-        
-
        <ProjectCard 
         src={DocLog}
         link='https://github.com/Nithish0011/Dwakana'
@@ -42,18 +40,13 @@ const Projects = () => {
         />    
 
         <ProjectCard 
-        src={website}
-        link='https://github.com/Nithish0011/webBlocker'
-        h3 = "Website Blocker"
-        p = "Child control"
-        /> 
-
-        <ProjectCard 
-        src={gen}
-        link='https://www.appbrewery.co/p/web-development-course-resources/'
-        h3 = "Password Generator"
+        src={port}
+        link='https://github.com/Nithish0011/Form_Generator'
+        h3 = "Dynamic form Generator"
         p = ""
         /> 
+
+        
           </div>
             
                   

@@ -8,7 +8,7 @@ const educationData = [
     institution: "Kakatiya University",
     degree: "Master of Computer Applications",
     year: "2022 - 2024",
-    result:"",
+    result:"https://drive.google.com/file/d/1B_eGkjaLHsUpIEl4AeAU1P6GNXwHqIfc/view?usp=sharing",
   },
   {
     institution: "A v v Degree and Pg college",
@@ -37,12 +37,12 @@ const Education = () => {
   return (
     <section className={StyleSheet.sectionTitle}>
       <h1>Education</h1>
-      <ul className="list-disc pl-5">
+      <ul>
         {educationData.map((edu, index) => (
-          <li key={index} className="mb-3">
-            <h3 className="text-xl font-semibold">{edu.degree}</h3>
-            <p className="text-gray-700">{edu.institution}</p>
-            <p className="text-gray-500">{edu.year}</p>
+          <li key={index}>
+            <h3>{edu.degree}</h3>
+            <p>{edu.institution}</p>
+            <p>{edu.year}</p>
             {edu.result && (
               <button>
                 <a href={edu.result} target="_blank" rel="noopener noreferrer" className="result">

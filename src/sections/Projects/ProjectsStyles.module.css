@@ -6,7 +6,7 @@
 }
 
 img{
-    max-width: 250px;
+    max-width: 220px;
     align-self: center;
     background-color: var(--project-card-bg);
     border-radius: 20px;
@@ -25,13 +25,13 @@ a:hover {
 
 .projectsContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
 }
 .scroller {
     display: 'flex';
-    flex-direction: column;
+    flex-direction: row;
     overflow-x: auto;
     white-space: nowrap; /* Enable vertical scrolling */
     padding:100x 0;/* Set a max height for the scroller */
@@ -52,6 +52,7 @@ a:hover {
 
 @media (width >= 800px) {
     .projectsContainer{
+        display: flex;
         flex-direction: row;
         justify-content: center;
     }
